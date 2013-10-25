@@ -1,6 +1,13 @@
-h1{font-family: sans-serif;color:#FFFFFF;}
+header{background: url('images/beans.jpg');}
+
+#logo-area{
+	width: 200px;
+	margin: auto;
+}
+
+h1 a{font-family: sans-serif;color:#FFFFFF;}
 #top-menu{color:#D2B48C; background-color: #2A1506;}
-nav li {color:#D2B48C;}
+nav li a{color:#D2B48C;}
 a:link {text-decoration:none;}
 a:visited {text-decoration: none}
 h2{font-family: sans-serif;color:#2A1506;}
