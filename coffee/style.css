@@ -1,3 +1,9 @@
+/*apply to entire site*/
+h1 a{font-family: sans-serif;color:#FFFFFF;}
+h2{font-family: sans-serif;color:#2A1506;}
+
+/*header and logo area*/
+
 header{background: url('images/beans.jpg');}
 
 #logo-area{
@@ -5,10 +11,71 @@ header{background: url('images/beans.jpg');}
 	margin: auto;
 }
 
-h1 a{font-family: sans-serif;color:#FFFFFF;}
-#top-menu{color:#D2B48C; background-color: #2A1506;}
-nav li a{color:#D2B48C;}
-a:link {text-decoration:none;}
-a:visited {text-decoration: none}
-h2{font-family: sans-serif;color:#2A1506;}
-#site-footer{background-color: #2A1506;color:#D2B48C;}
+	/*Top Menu, Some of this applies to all lists*/
+
+	#top-menu{
+		background-color: #2A1506;
+		word-spacing: 30px;
+		position: relative;
+		bottom: 15px;
+	}
+
+
+	#top-menu li{
+		display: inline-block;
+		color:#D2B48C;
+	}
+
+	nav{
+		position: relative;
+		margin-left: 275px;
+	}
+
+	nav li a{color:#D2B48C;}
+	a:link {text-decoration:none;}
+	a:visited {text-decoration: none;}
+
+/* index page content*/
+
+#l-column {
+	float: left;
+	width: 400px;
+	margin-left: 50px;
+}
+
+#l-column h2{
+	text-align: center;
+}
+
+#l-column p{
+	text-align: center;
+}
+
+#r-column {
+	float: right;
+	width: 400px;
+	margin-right: 50px;
+}
+
+#r-column h2{
+	text-align: center;
+}
+
+#r-column p{
+	text-align: center;
+}
+/*footer*/
+#site-footer{
+	background-color: #2A1506;color:#D2B48C;
+	position: absolute;
+	bottom: -200px;
+	width: 100%;
+	height: 75px;
+	padding-top: 25px;
+}
+
+#site-footer p{
+	text-align: center;
+	line-height: 1px;
+
+}

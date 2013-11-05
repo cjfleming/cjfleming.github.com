@@ -1,3 +1,81 @@
-@font-face{src: url(type/LeagueGothic-CondensedRegular.otf);font-family: "League-Gothic";}
+@font-face {
+  font-family: 'LeagueGothic';
+  src: url('type/LeagueGothic-Regular-webfont.eot');
+  src: url('type/LeagueGothic-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('type/LeagueGothic-Regular-webfont.woff') format('woff'),
+    url('type/LeagueGothic-Regular-webfont.ttf') format('truetype'),
+    url('type/LeagueGothic-Regular-webfont.svg#LeagueGothic') format('svg');
+}
+
+/*applies to entire site*/
+
 *{font-family:sans-serif;}
-h2{text-transform: uppercase;font-family: "League-Gothic";}
+
+nav li a{color: black;}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+
+/*header*/
+
+#top-menu li{
+			display:inline-block;
+		}
+
+#top-menu{position: absolute;
+				width: 50%;
+				margin-left: 700px;
+				margin-top: -55px;
+				word-spacing: 10px;
+				font-weight: bold;
+}
+
+#header{
+	padding: 0px;
+	border-bottom: 1px solid black;
+	margin-right: 20px;
+	margin-left: 20px;
+	}
+
+/*aside*/
+		
+		#siderbar li{list-style-type: none;
+						margin-bottom: 15px;
+						font-weight: bold;
+						font-size: 12px;
+		}
+
+		#side{
+					position: fixed;
+					margin-top: 30px;
+					left: -10px;
+					width: 250px;
+					}
+
+
+
+/*content*/
+
+#content {
+	margin-top: 40px;
+	margin-left: 325px;
+		margin-right: 20px;
+}
+	h6{padding: 0px;
+		margin: 0px;}
+
+	h2{text-transform: 
+		uppercase;
+		font-family: "LeagueGothic";
+		padding: 0px;
+		margin: 0px;
+		}
+
+/*other pages*/
+
+.more-info{
+	position: relative;
+	left: 20px;
+	top:40px;
+	margin-right: 20px;
+
+}
