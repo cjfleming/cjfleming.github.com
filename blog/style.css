@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'LeagueGothic';
-  src: url('type/LeagueGothic-Regular-webfont.eot') format('embedded-opentype'),
-    url('type/LeagueGothic-Regular-webfont.woff') format('woff'),
-    url('type/LeagueGothic-Regular-webfont.ttf') format('truetype'),
-    url('type/LeagueGothic-Regular-webfont.svg') format('svg');
+  src: url('type/LeagueGothic-Regular-webfont.eot'),
+    url('type/LeagueGothic-Regular-webfont.woff'),
+    url('type/LeagueGothic-Regular-webfont.ttf'),
+    url('type/LeagueGothic-Regular-webfont.svg');
 }
 /*@font-face {
   font-family: 'LeagueGothic';
