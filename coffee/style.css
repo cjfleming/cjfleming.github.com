@@ -39,8 +39,8 @@ header{background: url('images/beans.jpg');}
 
 #l-column {
 	float: left;
-	width: 47%;
-	margin-left: 1%
+	width: 45%;
+	margin-left: 3%
 }
 
 #l-column h2{
@@ -53,9 +53,9 @@ header{background: url('images/beans.jpg');}
 
 #r-column {
 	float: right;
-	width: 47%;
+	width: 45%;
 	margin-left: 4%;
-	margin-right: 1%;
+	margin-right: 3%;
 }
 
 #r-column h2{
@@ -78,12 +78,5 @@ header{background: url('images/beans.jpg');}
 #site-footer p{
 	text-align: center;
 	line-height: 1px;
-
 }
 
-/* Additional Pages*/
-
-.photo img.resize{
-	width: 50%;
-	height: auto;
-}
