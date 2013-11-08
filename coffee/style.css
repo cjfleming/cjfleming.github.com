@@ -54,7 +54,7 @@ header{background: url('images/beans.jpg');}
 #r-column {
 	float: right;
 	width: 400px;
-	margin-right: 50px;
+	margin:auto;
 }
 
 #r-column h2{
