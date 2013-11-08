@@ -26,9 +26,9 @@ header{background: url('images/beans.jpg');}
 		color:#D2B48C;
 	}
 
-	nav{
-		position: relative;
-		margin-left: 275px;
+	#top-menu nav ul{
+		width: 400px;
+		margin: auto;
 	}
 
 	nav li a{color:#D2B48C;}
@@ -78,4 +78,11 @@ header{background: url('images/beans.jpg');}
 	text-align: center;
 	line-height: 1px;
 
+}
+
+/* Additional Pages*/
+
+.photo img.resize{
+	width: 50%;
+	height: auto;
 }
