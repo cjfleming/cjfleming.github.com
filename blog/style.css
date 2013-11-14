@@ -28,36 +28,40 @@ a:visited {text-decoration: none;}
 
 /*header*/
 
+#logo img{
+	max-width: 50%
+}
+
 #top-menu li{
 			display:inline-block;
 		}
 
-#top-menu{position: absolute;
+#top-menu{float: right;
 				width: 50%;
-				margin-left: 700px;
-				margin-top: -55px;
-				word-spacing: 10px;
+				word-spacing: 1em;
 				font-weight: bold;
 }
 
 #header{
-	padding: 0px;
-	border-bottom: 1px solid black;
-	margin-right: 20px;
-	margin-left: 20px;
+	padding: .15em;
+	border-bottom: .15em solid black;
+	width: 98%;
+	margin: auto;
 	}
 
 /*aside*/
+
+	/*Question: Can I keep my margin-bottom at 15px 
+	and have it still be considered responsive design?*/
 		
 		#siderbar li{list-style-type: none;
 						margin-bottom: 15px;
 						font-weight: bold;
-						font-size: 12px;
+						font-size: .75em;
 		}
 
 		#side{
 					float:left;
-					margin-top: 30px;
 					left: 2%;
 					width: 28%;
 					}
@@ -68,7 +72,6 @@ a:visited {text-decoration: none;}
 
 #content {
 	float: right;
-	margin-top: 40px;
 	width: 63%;
 	margin-left: 5%;
 		margin-right: 2%;
@@ -85,9 +88,7 @@ a:visited {text-decoration: none;}
 /*other pages*/
 
 .more-info{
-	position: relative;
-	left: 20px;
-	top:40px;
-	margin-right: 20px;
+	margin-left: 4%;
+	margin-right: 4%;
 
 }
