@@ -7,7 +7,7 @@ h2{font-family: sans-serif;color:#2A1506;}
 header{background: url('images/beans.jpg');}
 
 #logo-area{
-	width: 200px;
+	width: 25%;
 	margin: auto;
 }
 
@@ -15,7 +15,7 @@ header{background: url('images/beans.jpg');}
 
 	#top-menu{
 		background-color: #2A1506;
-		word-spacing: 30px;
+		word-spacing: 2em;
 		position: relative;
 		bottom: 15px;
 	}
@@ -27,7 +27,7 @@ header{background: url('images/beans.jpg');}
 	}
 
 	#top-menu nav ul{
-		width: 400px;
+		width: 50%;
 		margin: auto;
 	}
 
@@ -43,7 +43,9 @@ header{background: url('images/beans.jpg');}
 	margin-left: 3%
 }
 
+
 #l-column h2{
+
 	text-align: center;
 }
 
@@ -58,6 +60,7 @@ header{background: url('images/beans.jpg');}
 	margin-right: 3%;
 }
 
+
 #r-column h2{
 	text-align: center;
 }
@@ -65,6 +68,21 @@ header{background: url('images/beans.jpg');}
 #r-column p{
 	text-align: center;
 }
+
+@media screen and (max-width: 600px){
+	#l-column{
+		float:none;
+		width:; 94%;
+		margin:3%;
+	}
+	#r-column{
+		float:none;
+		width:; 94%;
+		margin:3%;
+	}
+}
+
+
 /*footer*/
 #site-footer{
 	background-color: #2A1506;color:#D2B48C;
@@ -77,6 +95,6 @@ header{background: url('images/beans.jpg');}
 
 #site-footer p{
 	text-align: center;
-	line-height: 1px;
+	line-height: .25em;
 }
 
