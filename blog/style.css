@@ -28,25 +28,31 @@ a:visited {text-decoration: none;}
 
 /*header*/
 
+#header{
+	max-width: 100%;
+}
+
 #logo img{
-	max-width: 50%
+	max-width: 50%;
 }
 
 #top-menu li{
 			display:inline-block;
 		}
 
-#top-menu{float: right;
-				width: 50%;
-				word-spacing: 1em;
-				font-weight: bold;
+#top-menu{
+	text-align: right;
+	margin-right: 10%;
+	word-spacing: 1em;
+	font-weight: bold;
 }
 
 #header{
-	padding: .15em;
 	border-bottom: .15em solid black;
 	width: 98%;
 	margin: auto;
+	margin-top: 0em;
+	margin-bottom: 2em;
 	}
 
 /*aside*/

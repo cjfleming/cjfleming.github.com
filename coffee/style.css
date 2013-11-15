@@ -72,12 +72,12 @@ header{background: url('images/beans.jpg');}
 @media screen and (max-width: 600px){
 	#l-column{
 		float:none;
-		width:; 94%;
+		width: 94%;
 		margin:3%;
 	}
 	#r-column{
 		float:none;
-		width:; 94%;
+		width: 94%;
 		margin:3%;
 	}
 }
