@@ -30,9 +30,11 @@ a:visited {text-decoration: none;}
 
 #header{
 	max-width: 100%;
+	overflow: hidden;
 }
 
 #logo img{
+	float: left;
 	max-width: 50%;
 }
 
@@ -41,8 +43,8 @@ a:visited {text-decoration: none;}
 		}
 
 #top-menu{
-	text-align: right;
-	margin-right: 10%;
+	float: right;
+	margin-top: 50px;
 	word-spacing: 1em;
 	font-weight: bold;
 }
