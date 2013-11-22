@@ -2,15 +2,31 @@
 h1 a{font-family: sans-serif;color:#FFFFFF;}
 h2{font-family: sans-serif;color:#2A1506;}
 
-*body{
+body{
 	padding: 0px;
 	margin: 0px;
 }
 
-html{
+#wrapper,body,html{
 	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	display: block;
+}
+#wrapper{
+	overflow: hidden;
 }
 
+.row{
+	display: block;
+	min-height: 10px;
+	clear: both;
+	overflow: hidden;
+}
+
+.col{
+	float: left;
+}
 /*header and logo area*/
 
 header{background: url('images/beans.jpg');}
@@ -46,10 +62,11 @@ header{background: url('images/beans.jpg');}
 
 /* index page content*/
 
+
+
 #l-column {
-	float: left;
 	width: 41%;
-	margin-left: 7%
+	margin-left: 6%;
 }
 
 
@@ -63,10 +80,9 @@ header{background: url('images/beans.jpg');}
 }
 
 #r-column {
-	float: right;
 	width: 41%;
 	margin-left: 4%;
-	margin-right: 7%;
+	margin-right: 6%;
 }
 
 
@@ -91,23 +107,17 @@ header{background: url('images/beans.jpg');}
 	}
 }
 
-#frontinfo{
-	min-height: 100%;
-	height: 100%;
-}
-
 /*footer*/
 #site-footer{
-	background-color: #2A1506;color:#D2B48C;
-	position: absolute;
-	bottom: -200px;
 	width: 100%;
-	height: 75px;
-	padding-top: 25px;
+	background-color: #2A1506;
 }
 
 #site-footer p{
 	text-align: center;
 	line-height: .25em;
+	color:#D2B48C;
 }
+
+
 
