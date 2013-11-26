@@ -34,6 +34,7 @@ header{background: url('images/beans.jpg');}
 #logo-area{
 	width: 25%;
 	margin: auto;
+	padding-bottom: 10px;
 }
 
 	/*Top Menu, Some of this applies to all lists*/
@@ -42,7 +43,7 @@ header{background: url('images/beans.jpg');}
 		background-color: #2A1506;
 		word-spacing: 4em;
 		position: relative;
-		bottom: 15px;
+		bottom: 10px;
 	}
 
 
