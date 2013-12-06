@@ -14,7 +14,7 @@ body{
 	display: block;
 }
 #wrapper{
-	overflow: hidden;
+	overflow: scroll;
 }
 
 .row{
@@ -98,13 +98,12 @@ header{background: url('images/beans.jpg');}
 @media screen and (max-width: 600px){
 	#l-column{
 		float:none;
-		width: 94%;
-		margin:3%;
+	width: 100%;
+		
 	}
 	#r-column{
 		float:none;
-		width: 94%;
-		margin:3%;
+		width: 100%;
 	}
 }
 
