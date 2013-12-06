@@ -95,6 +95,14 @@ header{background: url('images/beans.jpg');}
 	text-align: center;
 }
 
+/*media queires*/
+@media screen and (max-width: 738px){
+
+	#top-menu nav ul {
+		width: 70%;
+		margin: auto;
+	}
+}
 @media screen and (max-width: 600px){
 	#l-column{
 		float:none;
@@ -105,8 +113,62 @@ header{background: url('images/beans.jpg');}
 		float:none;
 		width: 100%;
 	}
+
+	#top-menu nav ul {
+		width: 70%;
+		margin: auto;
+	}
 }
 
+@media screen and (max-width: 530px){
+	#l-column{
+		float:none;
+	width: 100%;
+		
+	}
+	#r-column{
+		float:none;
+		width: 100%;
+	}
+
+	#top-menu nav ul {
+		width: 90%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 410px){
+	#l-column{
+		float:none;
+	width: 100%;
+		
+	}
+	#r-column{
+		float:none;
+		width: 100%;
+	}
+
+	#top-menu li {
+		display: block;
+	}
+}
+/*
+@media screen and (max-width: 410px){
+	#l-column{
+		float:none;
+	width: 100%;
+		
+	}
+	#r-column{
+		float:none;
+		width: 100%;
+	}
+
+	#top-menu nav ul {
+		width: 100%;
+		margin: auto;
+	}
+}*/
 /*footer*/
 #site-footer{
 	width: 100%;
