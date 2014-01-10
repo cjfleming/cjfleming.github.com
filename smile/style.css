@@ -1,0 +1,128 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#wrapper{
+	width: 100%;
+	height: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+.col{
+	float: left;
+	display: block;
+	width: 50%;
+	height: 50%;
+	background: purple;
+}
+	.col-100{
+		clear: left;
+		width: 100%;
+		background: purple;
+	}
+	.left-eye{
+		background: purple;
+	}
+
+	.ball{
+		background: white;
+		margin: 15% auto;
+		display: block;
+		float: none;
+	}
+
+	.iris{
+		background: blue;
+		margin: 20% auto;
+		display: block;
+		float: none;
+	}
+
+	.iris2{
+		background: green;
+		padding-top: 30%;
+		margin: 20% auto;
+		display: block;
+		float: none;
+	}
+
+	.mouth{
+		background: white;
+		margin: 15% auto;
+		display: block;
+		float: none;
+	}
+
+	.ball{
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	o-border-radius: 50%;
+	border-radius: 50%;
+	}
+
+	.iris{
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	o-border-radius: 50%;
+	border-radius: 50%;
+	}
+
+	.iris2{
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	o-border-radius: 50%;
+	border-radius: 50%;
+	}
+
+	
+	.left-eye{
+		-webkit-transition: all 1s ease;
+		transition: all 1s ease;
+	}
+
+	.left-eye:hover{
+		color: red;
+	}
+
+		/*
+		-webkit-animation-duration: 3s;
+		-webkit-animation-name: slidein;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-direction: alternate;
+		animation-duration: 3s;
+		animation-name: slidein;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}*/
+
+	@keyframes slidein{
+		from{
+			margin-left: 100%;
+			width: 300%;
+		}
+		to{
+			margin-left:0%;
+			width: 100%;
+		}
+	}
+
+
+
+	.mouth{
+		height: 30%;
+		border-bottom-right-radius: 50%;
+		border-top-right-radius: 10%;
+		border-top-left-radius: 10%;
+		border-bottom-left-radius: 90%;
+	}
+
+
