@@ -173,8 +173,8 @@
 	margin: 0 0 0 -130px;
 }
 
-.demo-1 [data-icon]:after {
-    content: attr(data-icon);
+.demo-1 [img]:after {
+    content: attr(img);
     font-family: 'arial';
 	color: #999;
 	text-shadow: 0 0 1px #999;
@@ -269,7 +269,7 @@
 	background: #000;
 }
 
-.demo-1 .bg-2 [data-icon]:after,
+.demo-1 .bg-2 [img]:after,
 .demo-1 .bg-2 h2 {
 	color: #fff;
 }
